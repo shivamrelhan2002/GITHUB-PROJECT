@@ -67,7 +67,7 @@ function createUserCard(user) {
 
   const locationHTML = user.location
     ? `<p>
-         <img src="/img/Location.png" alt="Location" width="20" height="20">
+         <img src="/GITHUB-PROJECT/img/Location.png" alt="Location" width="20" height="20">
          ${user.location}
        </p>`
     : "";
@@ -83,7 +83,7 @@ function createUserCard(user) {
         <p>${user.bio || ""}</p>
         ${locationHTML}
         <a href="${user.html_url}" target="_blank">
-          <img src="/img/Link.png" alt="GitHub" width="20" height="20">
+          <img src="/GITHUB-PROJECT/img/Link.png" alt="GitHub" width="20" height="20">
           ${user.html_url || "No GitHub URL available"}
         </a>
       </div>
